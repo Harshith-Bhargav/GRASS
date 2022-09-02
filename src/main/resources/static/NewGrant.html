@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>NEW GRANT</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styleNewGrant.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="NewGrant.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     
+</head>
+<body>
+<header>
+    <!--<h1><b> Welcome School Admin </b></h1>-->
+    <div class='logo'>
+        <img src="images.jpg" alt="grass"class='logo-img'>
+    </div>
+    <div><h1 class="logo-text">GRASS</h1></div>
+    <div class='logo-right'>
+        <h1 class="dash-title">Apply for New Grant</h1>
+    </div>
+</header>
+<section class="list" id='admin_menu'>
+    <a href="school.html" class="menu"> home </a>
+    <a href="index.html" class="menu-right">Logout</a>
+</section>
+     <div class ="container" id="new_g_container">
+         <div class="form">
+             <div class="heading">
+                <!-- <img scr="logo.png" class="logo"> -->
+                 <h4>APPLY FOR NEW GRANT</h4>
+             </div>
+             <form id="new_grant_post">
+              <!-- <div class="wrap"> -->
+                 <div class="wrap2">
+                    <label>School Name</label>
+                    <input type="text" id="school_name"/>
+                    <span class="focus-input2"></span>
+                 </div>
+                 <!-- <div class="f2">
+                     <label>Second Name</label>
+                    <input type="text"/>
+                    <span class="focus-input"></span>
+                  </div> -->
+            <!-- </div> -->
+            <div class="wrap">
+                  <div class="f1">
+                       <label>Registration Number</label>
+                        <input type="number" id="unique_id">
+                       <span class="focus-input2"></span>
+                    </div>
+                    <div class="f2">
+                        <label>Request amount</label>
+                        <input type="number" id="amount">
+                        <span class="focus-input2"></span>
+                    </div>
+            </div>         
+              <!-- <div class="wrap2">
+                <label>Subject</label>
+                <input type="text">
+                <span class="focus-input2"></span>
+             </div> -->
+             <div class="wrap2">
+                <label>Subject</label>
+                <input type="text" id="subject">
+                <span class="focus-input2"></span>
+            </div>
+             <!--Custom drop down-->
+
+                 <select name="grants" id="dd_grant">
+                     <label>Select grant</label>
+                     <option value="select">select grant</option>
+                 </select>
+
+             <button class="btn" type="submit">Submit</button>
+
+        </div>
+         </form>
+      <!--Image-->
+        <!-- <div class="image">
+        <img scr="img.jpg" class="img" alt=""/> 
+        </div> -->
+    </div>
+    <footer>
+        <!--<h1><b> Welcome School Admin </b></h1>-->
+        <div class='logo'>
+            <img src="images.jpg" alt="grass"class='logo-img'>
+        </div>
+        <div><h1 class="logo-text1">GRANT ALLOTMENT SYSTEM FOR SCHOOLS</h1></div>
+        <div class='logo-right'>
+            <a href="mailto:h20200283@pilani.bits-pilani.ac.in"><b>h20200283@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200274@pilani.bits-pilani.ac.in"><b> h20200274@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200287@pilani.bits-pilani.ac.in"><b> h20200287@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200292@pilani.bits-pilani.ac.in"><b>h20200292@pilani.bits-pilani.ac.in</b> </a><br>
+            <a href="mailto:h20200387@pilani.bits-pilani.ac.in"><b>h20200387@pilani.bits-pilani.ac.in</b> </a><br>
+            <a href="mailto:h20200272@pilani.bits-pilani.ac.in"><b>h20200272@pilani.bits-pilani.ac.in</b></a>
+        </div>
+    </footer>
+    <script src="NewGrant.js"></script>
+    <script src="NewGrant_post.js"></script>
+</body>
+</html>

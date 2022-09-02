@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Sign_Up</title>
+</head>
+<body>
+	<header>
+        <!--<h1><b> Welcome School Admin </b></h1>-->
+        <div class='logo'>
+            <img src="images.jpg" alt="grass"class='logo-img'>
+        </div>
+        <div><h1 class="logo-text">GRASS</h1></div>
+        <div class='logo-right'>
+            <h1 class="dash-title">Signup</h1>
+        </div>
+    </header>
+    <section class="list" id='admin_menu'>
+        <a href="index.html" class="menu"> School-Login </a>
+        <a href="grant_officer_signup.html" class="menu">Govt-SignUp</a>
+        <a href="index.html" class="menu-right">BACK</a>
+    </section>
+    <section class="signup_container">
+        <form id="signup_post" class="signup_post">
+            <div class="attr-container">
+                <h2> School login </h2>
+            </div>
+            <!--<div class="attr_container_ut">
+            <label for="user_type">User Type:</label> 
+            <select id="dd"> 
+                <option value="Select" selected="selected">select</option>
+                <option value="School_User">School User</option>
+                <option value="Grant_Officer">Grant_Officer </option>
+                <option value="Accountant">Accountant</option>
+            </select>-->
+            <!--<div class="attr_container_ut">
+                <label for="user_type">User Type:</label> 
+                <select id="dd" onchange="window.location.href = this.value"> 
+                <option value="Select">select</option>
+                <option value="" selected="selected">School User</option>
+                <option value="grant_officer_signup.html">Grant_Officer </option>
+                <option value="acc_signup.html">Accountant</option>
+                </select>
+            </div>-->
+                <!--<div id="dd">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="mydd" class="dropdown-content">
+                  <a href="">school_user</a>
+                  <a href="grant_officer_signup.html">Grant_Officer</a>
+                  <a href="acc_signup.html">Accountant</a>
+                </div>
+                </div>-->
+            <div class="attr_container">
+                <div class="attr">
+                    <input type="text" id="role" placeholder="enter your role">
+                </div>
+                <div class="attr">
+                    <input type="email" id="email" placeholder="School_email">
+                </div>
+                <div class="attr">
+                    <input type="text" id="name" placeholder="School_name">
+                </div>
+                <div class="attr">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="attr">
+                    <input type="text" id="address" placeholder="School_address">
+                </div>
+                <div class="attr">
+                    <input type="number" id="reg_no" placeholder="School_reg_no">
+                </div>
+                <div class="attr">
+                    <input type="password" id="repass" placeholder="Retype_Password">
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <!--<h1><b> Welcome School Admin </b></h1>-->
+        <div class='logo'>
+            <img src="images.jpg" alt="grass"class='logo-img'>
+        </div>
+        <div><h1 class="logo-text1">GRANT ALLOTMENT SYSTEM FOR SCHOOLS</h1></div>
+        <div class='logo-right'>
+            <a href="mailto:h20200283@pilani.bits-pilani.ac.in" id="l1"><b>h20200283@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200274@pilani.bits-pilani.ac.in"><b> h20200274@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200287@pilani.bits-pilani.ac.in"><b> h20200287@pilani.bits-pilani.ac.in</b></a><br>
+            <a href="mailto:h20200292@pilani.bits-pilani.ac.in"><b>h20200292@pilani.bits-pilani.ac.in</b> </a><br>
+            <a href="mailto:h20200387@pilani.bits-pilani.ac.in"><b>h20200387@pilani.bits-pilani.ac.in</b> </a><br>
+            <a href="mailto:h20200272@pilani.bits-pilani.ac.in"><b>h20200272@pilani.bits-pilani.ac.in</b></a>
+        </div>
+    </footer>
+    <script src="signup_post_req.js"></script>
+</body>
+</html>
+    

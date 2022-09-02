@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="base.css">
+	<link rel="icon" href="favicon_2.ico">
+	<script src="http://code.jquery.com/jquery-1.6.4.js"></script>
+    <title>Welcome</title>
+</head>
+<body>
+	<header>
+		<!--<h1><b> Welcome School Admin </b></h1>-->
+		<div class='logo'>
+			<img src="images.jpg" alt="grass"class='logo-img'>
+		</div>
+		<div><h1 class="logo-text">GRASS</h1></div>
+		<div><h1 class="logo-center">WELCOME</h1></div>
+		<div class='logo-right'>
+			<h1 class="logo-text" id="india"><b> INDIA </b></h1>
+		</div>
+	</header>
+	<section class="list" id='admin_menu'>
+        <a href="index.html" class="menu"> School-Login </a>
+        <a href="Govt.html" class="menu">Govt-Login</a>
+        <a href="index.html" class="menu-right">BACK</a>
+    </section>
+	<!--<section class="list">
+		<a href="" class="menu"> Home </a>
+		<a href="about.html" class="menu"> About </a>
+		<a href="contact.html" class="menu"> Contact us </a>
+		<a href="" class="menu"> Career</a>
+	</section>-->
+<section class="div_sec">
+<div class="container" id="container">
+	<div class="form-container user-container">
+		<form action="school.html" class="userV">
+			<h1>User Account</h1>
+			<div class="msg2"></div>
+			<input type="email" placeholder="Email" class="emailUV"/>
+			<input type="password" placeholder="Password" class="passUV"/>
+			<a href="#">Forgot your password?</a>
+			<button type="submit" id="green_btn">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Govt Officials</h1>
+				<p>You can login here</p>
+				<button class="ghost" onclick="window.location.href='Govt.html'">Sign In</button>
+			</div>
+		</div>
+    </div>
+</div>
+</section>
+<div class='signup'>
+    <h3>If you are a new user you can sign up here</h3>
+    <button class="ghost" onclick="window.location.href='signup.html'">sign up</button>
+</div>
+<footer>
+	<!--<h1><b> Welcome School Admin </b></h1>-->
+	<div class='logo'>
+		<img src="images.jpg" alt="grass"class='logo-img'>
+	</div>
+	<div><h1 class="logo-text1">GRANT ALLOTMENT SYSTEM FOR SCHOOLS</h1></div>
+	<div class='logo-right'>
+		<a href="mailto:h20200283@pilani.bits-pilani.ac.in"><b>h20200283@pilani.bits-pilani.ac.in</b></a><br>
+		<a href="mailto:h20200274@pilani.bits-pilani.ac.in"><b> h20200274@pilani.bits-pilani.ac.in</b></a><br>
+		<a href="mailto:h20200287@pilani.bits-pilani.ac.in"><b> h20200287@pilani.bits-pilani.ac.in</b></a><br>
+		<a href="mailto:h20200292@pilani.bits-pilani.ac.in"><b>h20200292@pilani.bits-pilani.ac.in</b> </a><br>
+		<a href="mailto:h20200387@pilani.bits-pilani.ac.in"><b>h20200387@pilani.bits-pilani.ac.in</b> </a><br>
+		<a href="mailto:h20200272@pilani.bits-pilani.ac.in"><b>h20200272@pilani.bits-pilani.ac.in</b></a>
+	</div>
+</footer>
+<script src="main_I.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.acc_action{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+    /*background:  #ffda77;*/
+    background: #10a1e0;
+    border-radius: 15px;
+}
+
+.acc_info{
+    text-align: center;
+    overflow: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.acc_desc{
+    font-size: 18px;
+    font-weight: 500;
+    text-justify: auto;
+}
+
+.acc_btn{
+    background: #f9f7cf;
+    border-radius: 10px;
+    border-left: 1px dotted black;
+}
+#acc_btn_right{
+    border-right: 1px dotted black;
+    border-left: 0px;
+}
+
+.crud_btn{
+    margin: 15px;
+}
+.acc_hr{
+    /*border: dotted 10px #ffd66b;*/
+    border: dotted 10px #ff0050;
+    width: 10%;
+    height: 0px;
+    border-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

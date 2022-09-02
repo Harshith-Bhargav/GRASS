@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f5f7;
+}
+
+header{
+    /*margin-top: 2px;*/
+    /*background: rgba(0, 247, 255, 0.068);
+    background: #ffba93;
+    /*background: #fbf6f0;*/    
+    display: flex;
+    background: #eff8ff;
+	/*background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);*/
+	background: -webkit-linear-gradient(to right, #fca3cc,  #faa3aa);
+	background: linear-gradient(to right, #ff7f00,white, green);
+    text-align: center;
+    padding: 5px;
+    /*border: 2px solid black;*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+    /*justify-content: flex-start;*/
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.logo-right{
+    margin-left: auto;
+}
+.logo-text{
+    /*color: #16c79a;*/
+    color: red;
+    margin-top: 9px;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+}
+.logo-text1{
+    /*color: #16c79a;*/
+    color: white;
+    margin-top: 9px;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+}
+.logo-center{
+    width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    color: blue;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+	margin: auto;
+    
+}
+#india{
+    color: #16c79a;
+}
+.dash-title{
+    padding-top: 8px;
+    color: #56fc69;
+    text-shadow: -1px 1px 0 #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+}
+footer{
+    /*margin: 0;
+    vertical-align: baseline;*/
+    background : black;
+    margin-top : 20px;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+        /*border: 2px solid black;*/
+    border: 1px solid white;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+}
+.f_left{
+    margin-left : auto;
+}
+.list{
+    display: flex;
+    margin: 10px 0;
+    margin-top: 0px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    background: white;
+    /*border: 2px solid black;
+    border-top: none;*/
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    font-weight: bold;
+    /*padding: 20px;
+    padding-left: 0px;*/
+    /*padding: 1rem 1rem 1rem 0;*/
+    /*background: rgba(0, 0, 0, 0.5);
+    justify-content: flex-start;
+    flex-direction: row;*/
+}
+.menu{
+    margin: 0px;
+    padding: 20px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.menu:hover{
+    /*border: 1px solid white;
+    border-radius: 5px;*/
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: white;
+}
+.menu-right{
+    margin: 0px;
+    padding-right: 0px;
+    color:rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-left: auto;
+}
+.menu-right:hover{
+    /*border: 1px solid white;
+    border-radius: 5px;*/
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: white;
+}
+.back{
+    /*font-size: large;
+    font-weight: bold;*/
+    margin: 2px;
+    padding: 2px;
+    color: white;
+    float: right;
+    background: black;
+    font-weight: bold;
+}
+.back:hover{
+    background: white;
+    /*font-size: 105%;*/
+    color: black;
+    font-weight: bold;
+}
+
+.subhead{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+hr{
+    /*border: dotted 10px #ff8585;*/
+    border: dotted 10px red;
+    width: 10%;
+    height: 0px;
+    border-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.subhead_div{
+    margin: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: dotted darkcyan;
+}
+
+.logout{
+    float: right;
+    font-size: medium; 
+    border-radius: 5px;
+}
+.logout:hover{
+    background-color: white;
+    font-size: 115%;
+}
+
+.crud_btn{
+    padding: 30px;
+    margin: 5px;
+    margin-bottom: 20px;
+    background-color: #dff3e3;
+    color: black;
+    font-size: large;
+}
+
+.crud_btn:hover{
+    background-color: #adce74;
+    color: white;
+}
+.error{
+    margin: 2px;
+    margin-top: 5px;
+    padding: 1px;
+    border-radius: 2px;
+    background-color: #FC2D61;
+    color: white;
+}

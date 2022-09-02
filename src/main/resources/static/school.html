@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>School</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="accountant.css">
+    </head>
+    <body>
+        <header>
+            <!--<h1><b> Welcome School Admin </b></h1>-->
+            <div class='logo'>
+                <img src="images.jpg" alt="grass"class='logo-img'>
+            </div>
+            <div><h1 class="logo-text">GRASS</h1></div>
+            <div class='logo-right'>
+                <!--<h4><b> Dashboard - <span class="dash-title"> School </span></b></h4>-->
+                <h1 class="dash-title">School</h1>
+            </div>
+        </header>
+        <section class="list">
+            <a href="#va" class="menu"> Apply </a>
+            <a href="#id" class="menu"> Status </a>
+            <a href="#sa" class="menu"> History </a>
+            <a href="index.html" class="menu-right">Logout</a>
+        </section>
+        <section>
+            <h4 class="subhead"> Dashboard </h4>
+        </section>
+        <hr class="acc_hr">
+        <div class="subhead_div">Apply for New Grant</div>
+        <section class="acc_action">
+            <div class="acc_info">
+                <p class="acc_desc" id="va">
+                    If you want to apply for a new Available Grant
+                    than please click on the Apply button.
+                </p>
+            </div>
+            <div class="acc_btn">
+                <button class="crud_btn" onclick="window.location.href='NewGrant.html'">Apply</button>
+            </div>
+        </section>
+        <hr class="acc_hr">
+        <div class="subhead_div">Application Status</div>
+        <section class="acc_action">
+            <div class="acc_btn" id="acc_btn_right">
+                <button class="crud_btn" onclick="window.location.href='app_status.html'">Status</button>
+            </div>
+            <div class="acc_info">
+                <p class="acc_desc" id="id">
+                    If you want to see the status of your applied 
+                    application than please click on the status button.
+                </p>
+            </div>
+        </section>
+        <hr class="acc_hr">
+        <div class="subhead_div">Approved Applications</div>
+        <section class="acc_action">
+            <div class="acc_info">
+                <p class="acc_desc" id="sa">
+                   If you want to see your previously approved 
+                   grants than please click on the history button.
+                </p>
+            </div>
+            <div class="acc_btn" >
+                <button class="crud_btn" onclick="window.location.href = 'approved.html'">History</button>
+            </div>
+        </section> 
+        <footer>
+            <!--<h1><b> Welcome School Admin </b></h1>-->
+            <div class='logo'>
+                <img src="images.jpg" alt="grass"class='logo-img'>
+            </div>
+            <div><h1 class="logo-text1">GRANT ALLOTMENT SYSTEM FOR SCHOOLS</h1></div>
+            <div class='logo-right'>
+                <a href="mailto:h20200283@pilani.bits-pilani.ac.in"><b>h20200283@pilani.bits-pilani.ac.in</b></a><br>
+                <a href="mailto:h20200274@pilani.bits-pilani.ac.in"><b> h20200274@pilani.bits-pilani.ac.in</b></a><br>
+                <a href="mailto:h20200287@pilani.bits-pilani.ac.in"><b> h20200287@pilani.bits-pilani.ac.in</b></a><br>
+                <a href="mailto:h20200292@pilani.bits-pilani.ac.in"><b>h20200292@pilani.bits-pilani.ac.in</b> </a><br>
+                <a href="mailto:h20200387@pilani.bits-pilani.ac.in"><b>h20200387@pilani.bits-pilani.ac.in</b> </a><br>
+                <a href="mailto:h20200272@pilani.bits-pilani.ac.in"><b>h20200272@pilani.bits-pilani.ac.in</b></a>
+            </div>
+        </footer>
+    </body>
+</html>

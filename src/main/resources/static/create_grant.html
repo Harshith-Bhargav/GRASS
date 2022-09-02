@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Create Grant</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="signup.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--<h1><b> Welcome School Admin </b></h1>-->
+            <div class='logo'>
+                <img src="images.jpg" alt="grass"class='logo-img'>
+            </div>
+            <div><h1 class="logo-text">GRASS</h1></div>
+            <div class='logo-right'>
+                <h1 class="dash-title">Admin</h1>
+            </div>
+        </header>
+        <section class="list" id='admin_menu'>
+            <a href="admin.html" class="menu"> Home </a>
+            <a href="index.html" class="menu-right">Logout</a>
+        </section>
+        <section class="signup_container">
+            <form action="" class="signup_post1" id="signup_post1">
+                <div class="">
+                    <label for="heading" class="head_label">Create Grant</label>
+                </div>
+                <div class="attr_container">
+                    <div class="attr">
+                        <input type="text" placeholder="Enter The Name Of the Grant" id="g_name">
+                    </div>
+                    <div class="attr">
+                        <input type="textbox" placeholder="Description of Grant" id="g_desc">
+                    </div>
+                    <div class="attr">
+                        <input type="number" placeholder="Minimum amount for requesting" id="min_amt">
+                    </div>
+                    <div class="attr">
+                        <input type="number" placeholder="Maximum amount for requesting" id="max_amt">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="attr">
+                        <label for="start date"> Grant Activation Start Date</label>
+                        <input type="date" value="2021-01-01" min="2021-01-01" max="2024-12-31" id="a_date">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="attr">
+                        <label for="end date"> Grant De-Activation Date</label>
+                        <input type="date" value="2021-06-31" min="2021-01-01" max="2024-12-31" id="da_date">
+                    </div>
+                    <br>
+                    <div class="attr">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <!--<h1><b> Welcome School Admin </b></h1>-->
+            <div class='logo'>
+                <img src="images.jpg" alt="grass"class='logo-img'>
+            </div>
+            <div><h1 class="logo-text1">GRANT ALLOTMENT SYSTEM FOR SCHOOLS</h1></div>
+            <div class='logo-right'>
+                <a href="mailto:h20200283@pilani.bits-pilani.ac.in"><b>h20200283@pilani.bits-pilani.ac.in</b></a><br>
+                <a href="mailto:h20200274@pilani.bits-pilani.ac.in"><b> h20200274@pilani.bits-pilani.ac.in</b></a><br>
+                <a href="mailto:h20200287@pilani.bits-pilani.ac.in"><b> h20200287@pilani.bits-pilani.ac.in</b></a><br>
+                <a href="mailto:h20200292@pilani.bits-pilani.ac.in"><b>h20200292@pilani.bits-pilani.ac.in</b> </a><br>
+                <a href="mailto:h20200387@pilani.bits-pilani.ac.in"><b>h20200387@pilani.bits-pilani.ac.in</b> </a><br>
+                <a href="mailto:h20200272@pilani.bits-pilani.ac.in"><b>h20200272@pilani.bits-pilani.ac.in</b></a>
+            </div>
+        </footer>
+        <script src="create_grant_post_req.js"></script>
+    </body>
+</html>
